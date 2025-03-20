@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Voting System</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            margin: 0;
+        }
+
+        header {
+            background: #007BFF;
+            padding: 1rem 0;
+            text-align: center;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4rem 1rem;
+            background: #e7f1ff;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background: #3700ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .btn:hover {
+            background: #0056b3;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 2rem 1rem;
+        }
+
+        .feature {
+            width: 300px;
+            background: white;
+            padding: 1.5rem;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .feature h3 {
+            margin-bottom: 10px;
+        }
+
+        .testimonials {
+            background: #f4f4f9;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        .testimonial {
+            max-width: 600px;
+            margin: 0 auto;
+            margin-top: 20px;
+            font-style: italic;
+        }
+
+        .cta {
+            background: #007BFF;
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        .cta h2 {
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .feature {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h3>Secure Online Voting System</h3>
+        <h1>Voteopia</h1>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Vote Anytime, Anywhere</h1>
+        <p>Empowering democracy through a secure and transparent online voting system.</p>
+        <a href="role.html" class="btn">Start Now</a>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature">
+            <h3>Secure Voting</h3>
+            <p>End-to-End encryption to ensure voter privacy and data integrity.</p>
+        </div>
+        <div class="feature">
+            <h3>Easy to Use</h3>
+            <p>Simple and intuitive interface for a seamless voting experience.</p>
+        </div>
+        <div class="feature">
+            <h3>Real-Time Results</h3>
+            <p>Instant tallying and transparent result generation after voting ends.</p>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="features">
+        <div class="feature">
+            <h3>Step 1: Create a poll</h3>
+            <p>Done by election incharge</p>
+        </div>
+        <div class="feature">
+            <h3>Step 2:Voters Login</h3>
+            <p>voter authentication ensures a secure voting process.</p>
+        </div>
+        <div class="feature">
+            <h3>Step 3: Voters Cast Vote</h3>
+            <p>Choose your preferred candidate and submit your vote easily.</p>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta">
+        <h2>Ready to Make Your Voice Heard?</h2>
+        <a href="role.html" class="btn">Start Now</a>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Voteopia . All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
